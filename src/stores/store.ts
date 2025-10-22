@@ -72,9 +72,9 @@ export const GAME_SETTINGS = {
   CS: {
     name: 'cuh life',
     publicDir: 'hl/',
+    launchArgs: [],
     libraries: {
       ...XASH_LIBS,
-      launchArgs: [],
       client: HLClientURL,
       server: HLServerURL,
     },
