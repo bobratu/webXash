@@ -70,10 +70,11 @@ export const GAME_SETTINGS = {
     ...BASE_GAME_SETTINGS,
   },
   CS: {
-    name: 'Half-Life',
+    name: 'cuh life',
     publicDir: 'cs/',
     libraries: {
       ...XASH_LIBS,
+      launchArgs: [],
       client: HLClientURL,
       server: HLServerURL,
     },
