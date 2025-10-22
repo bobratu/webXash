@@ -71,7 +71,7 @@ export const GAME_SETTINGS = {
   },
   CS: {
     name: 'cuh life',
-    publicDir: 'cs/',
+    publicDir: 'hl/',
     libraries: {
       ...XASH_LIBS,
       launchArgs: [],
