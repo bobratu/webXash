@@ -70,14 +70,12 @@ export const GAME_SETTINGS = {
     ...BASE_GAME_SETTINGS,
   },
   CS: {
-    name: 'Counter-Strike',
-    launchArgs: ['-game', 'cstrike', '+_vgui_menus', '0'],
+    name: 'Half-Life',
     publicDir: 'cs/',
     libraries: {
       ...XASH_LIBS,
-      menu: CSMenuURL,
-      client: CSClientURL,
-      server: CSServerURL,
+      client: HLClientURL,
+      server: HLServerURL,
     },
     ...BASE_GAME_SETTINGS,
   },
